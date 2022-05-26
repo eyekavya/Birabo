@@ -27,14 +27,36 @@ body {
   margin: 0 auto;
 }
 
-.btn {
+.btn,
+.btn:link,
+.btn:visited {
   display: inline-block;
   text-decoration: none;
   color: #fff;
   font-size: 2rem;
   background-color: #343a40;
-  padding: 1rem 2.6rem;
+  padding: 1.3rem 2.6rem;
   border-radius: 0.4rem;
   font-weight: 400;
   letter-spacing: 0.5px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #23272b;
+}
+
+.heading-primary {
+  font-size: 3.5rem;
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.2px;
+}
+
+.paragraph-common {
+  font-size: 2.24rem;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  font-weight: 400;
 }
