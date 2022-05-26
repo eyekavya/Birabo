@@ -159,3 +159,16 @@
   border-radius: 5px;
   box-shadow: 0 5px 14px 0 rgb(129 129 129 / 20%);
 }
+
+/* ***************************** */
+/* COLAB SECTION */
+/* ***************************** */
+
+.colab {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.p-colab {
+}
