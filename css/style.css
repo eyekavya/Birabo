@@ -77,3 +77,29 @@
 .hero-paragraph {
   margin-bottom: 7.5rem;
 }
+
+/* ***************************** */
+/* FEATURES SECTION */
+/* ***************************** */
+
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feature-img-box {
+  flex-basis: 50%;
+}
+
+.img {
+  width: 100%;
+}
+
+.feature strong {
+  display: inline-block;
+  color: #444;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 2.2rem 0 1.2rem 0;
+}
