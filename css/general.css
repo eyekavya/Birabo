@@ -1,0 +1,40 @@
+/* GLOBAL RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* 10px/16px = 0.625 = 62.5% */
+}
+
+/* INITIALLY BASIC STYLE TO BODY */
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #8892a0;
+}
+
+/* ***************************** */
+/* GENERAL REUSABLE COMPONENTS */
+/* ***************************** */
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  background-color: #343a40;
+  padding: 1rem 2.6rem;
+  border-radius: 0.4rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}

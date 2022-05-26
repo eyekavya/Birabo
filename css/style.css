@@ -1,0 +1,58 @@
+/* ***************************** */
+/* HEADER */
+/* ***************************** */
+
+.header {
+  background-color: #efefef;
+}
+
+.header-container {
+  margin: 0 12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 2.6rem;
+}
+
+.logo-container {
+  padding: 1.7rem 2rem;
+}
+
+.title {
+  text-decoration: none;
+  color: #8892a0;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #444;
+}
+
+/* ***************************** */
+/* NAVIGATION */
+/* ***************************** */
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.btn-login:link,
+.btn-login:visited {
+  display: inline-block;
+  color: #6d6d6d;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+  background-color: transparent;
+}
+
+.btn-login:hover,
+.btn-login:active {
+  text-decoration: underline;
+}
+
+.btn-signup {
+  font-size: 1.6rem;
+}
