@@ -177,3 +177,48 @@
   line-height: 1.5;
   margin-bottom: 3rem;
 }
+
+/* ***************************** */
+/* FOOTER SECTION */
+/* ***************************** */
+
+.footer {
+  background-color: #343a40;
+  padding: 9rem;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20rem;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #f2f2f2;
+  line-height: 2.5;
+}
+
+.footer strong {
+  display: inline-block;
+  color: #f2f2f2;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 2.2rem 0 1.2rem 0;
+}
+
+.footer-about {
+  width: 20%;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f2f2f2;
+  line-height: 2.5;
+}
