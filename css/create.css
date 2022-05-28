@@ -1,0 +1,17 @@
+/* ***************************** */
+/* HERO SECTION - CREATE WORKSPACE */
+/* ***************************** */
+
+/* fixing the image and footer */
+.hero img {
+  margin: -40rem 0;
+}
+
+.footer-section {
+  position: relative;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+}
