@@ -15,3 +15,49 @@
   position: absolute;
   width: 100%;
 }
+
+/* Create Workspace FORM */
+.card-container {
+  position: absolute;
+  top: 14rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 10rem;
+}
+
+.create-card {
+  background-color: #fff;
+  padding: 6rem 10rem;
+  flex-basis: 55%;
+  border-radius: 5px;
+  border-top: 0.5rem solid #329ef7;
+  box-shadow: 0 0.3125rem 0.875rem 0 rgb(129 129 129 / 20%);
+}
+
+.heading-primary h1 {
+  font-size: 4.4rem;
+}
+
+.create-form input {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid #ced4da;
+  letter-spacing: 0.5px;
+  padding: 0.8rem;
+  width: 100%;
+  margin-top: 1.5rem;
+  border-radius: 5px;
+}
+
+.create-card *:focus {
+  outline: none;
+  box-shadow: 0 0 1px 3px #afd9fc;
+  border: 1px solid #76b5e9;
+  border-radius: 5px;
+}
+
+.create-form .btn {
+  margin-top: 2.5rem;
+}
