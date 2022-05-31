@@ -61,7 +61,6 @@
 .no-account-link:link,
 .no-account-link:visited {
   text-decoration: none;
-  display: inline-block;
   color: #76b5e9;
   font-size: 1.6rem;
   transition: all 0.3s;
