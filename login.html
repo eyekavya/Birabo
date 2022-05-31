@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/create.css" />
+    <link rel="stylesheet" href="./css/login.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -39,5 +39,93 @@
         </nav>
       </div>
     </header>
+    <!-- *********************************** -->
+    <!-- HERO SECTION - LOGIN -->
+    <!-- *********************************** -->
+
+    <section>
+      <div class="hero container">
+        <img src="./img/login-bg.svg" alt="blue pattern background" />
+      </div>
+
+      <!-- FORM -->
+      <div class="card-container">
+        <div class="test"></div>
+        <div class="login-card">
+          <div class="heading-primary"><h1>Log In</h1></div>
+          <form class="login-form">
+            <div class="input-container">
+              <input
+                type="email"
+                placeholder="Your email"
+                id="mail"
+                name="mail"
+                required
+              />
+            </div>
+            <div>
+              <input
+                type="password"
+                placeholder="Your password"
+                id="password"
+                name="password"
+                required
+              />
+            </div>
+            <a class="btn" href="#">Login</a>
+          </form>
+          <div class="flex-no-account">
+            <p class="paragraph-small">
+              No account yet?
+              <span
+                ><a class="no-account-link" href="./signup.html"
+                  >Sign Up</a
+                ></span
+              >
+            </p>
+            <p class="paragraph-small">
+              Forgot your password?
+              <span
+                ><a class="no-account-link" href="#">Reset Password</a></span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- *********************************** -->
+    <!-- FOOTER SECTION -->
+    <!-- *********************************** -->
+
+    <footer class="section-footer">
+      <div class="footer">
+        <div class="footer-nav">
+          <div class="footer-links">
+            <ul>
+              <li>
+                <h3><strong>Links</strong></h3>
+              </li>
+              <li><a class="paragraph-small" href="#">Home</a></li>
+              <li><a class="paragraph-small" href="#">Contact Us</a></li>
+              <li><a class="paragraph-small" href="#">Terms of Use</a></li>
+              <li><a class="paragraph-small" href="#">Privacy Policy</a></li>
+              <li><a class="paragraph-small" href="#">Pricing</a></li>
+            </ul>
+          </div>
+          <div class="footer-about">
+            <h3><strong>About Us</strong></h3>
+            <p class="paragraph-small">
+              A Simple Tool For Effortless Collaboration.
+            </p>
+          </div>
+        </div>
+        <div class="copyright">
+          <p class="paragraph-small">
+            &copy; 2022 Birabo.com. All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
