@@ -1,0 +1,71 @@
+* ***************************** */
+/* HERO SECTION - LOGIN */
+/* ***************************** */
+
+.hero img {
+  padding: 1.2rem 12rem;
+}
+
+/* LOGIN FORM */
+.card-container {
+  position: absolute;
+  top: 14rem;
+  width: 100%;
+  /* display: flex;
+  justify-content: space-around;
+  gap: 10rem; */
+}
+
+.signup-card {
+  /* background-color: #fff; */
+  padding: 6rem 4rem;
+  /* flex-basis: 35%;
+  border-radius: 5px;
+  box-shadow: 0 0.3125rem 0.875rem 0 rgb(129 129 129 / 20%); */
+}
+
+.heading-primary h1 {
+  font-size: 4.4rem;
+}
+
+.signup-form {
+  margin: 3rem 0;
+}
+
+.signup-form input {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid #ced4da;
+  letter-spacing: 0.5px;
+  padding: 0.8rem;
+  width: 100%;
+  margin-top: 1.5rem;
+  border-radius: 5px;
+}
+
+.signup-card *:focus {
+  outline: none;
+  box-shadow: 0 0 1px 3px #afd9fc;
+  border: 1px solid #76b5e9;
+  border-radius: 5px;
+}
+
+.signup-form .btn {
+  margin-top: 2.5rem;
+}
+
+.no-account-link:link,
+.no-account-link:visited {
+  text-decoration: none;
+  color: #76b5e9;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+  background-color: transparent;
+}
+
+.no-account-link:hover,
+.no-account-link:active {
+  text-decoration: underline;
+  color: #1f5b8d;
+}
