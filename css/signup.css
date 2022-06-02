@@ -1,27 +1,20 @@
-* ***************************** */
+/* ***************************** */
 /* HERO SECTION - LOGIN */
 /* ***************************** */
-
-.hero img {
-  padding: 1.2rem 12rem;
-}
 
 /* LOGIN FORM */
 .card-container {
   position: absolute;
-  top: 14rem;
+  top: 5rem;
   width: 100%;
-  /* display: flex;
-  justify-content: space-around;
-  gap: 10rem; */
+  display: flex;
+  justify-content: flex-start;
 }
 
 .signup-card {
-  /* background-color: #fff; */
   padding: 6rem 4rem;
-  /* flex-basis: 35%;
-  border-radius: 5px;
-  box-shadow: 0 0.3125rem 0.875rem 0 rgb(129 129 129 / 20%); */
+  flex-basis: 40%;
+  margin: 0 6rem;
 }
 
 .heading-primary h1 {
