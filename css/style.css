@@ -176,6 +176,10 @@
   padding-bottom: 7rem;
 }
 
+.colab h2 {
+  text-align: center;
+}
+
 .colab p {
   text-align: center;
   line-height: 1.5;
