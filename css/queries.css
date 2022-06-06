@@ -258,4 +258,38 @@
   .footer-nav {
     flex-direction: column;
   }
+
+  .colab {
+    padding: 15rem 2rem 10rem 2rem;
+    width: 100%;
+  }
+
+  .colab h2 {
+    font-size: 4.2rem;
+  }
+
+  .clients p {
+    text-align: center;
+  }
+
+  .testimonials {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .footer-nav {
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  .footer-about {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .copyright p {
+    flex: none;
+  }
 }
